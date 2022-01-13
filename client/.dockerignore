@@ -1,0 +1,9 @@
+.git
+.cache
+*.md
+settings.json
+private.key
+node_modules
+Dockerfile
+Dockerfile.dev
+Makefile

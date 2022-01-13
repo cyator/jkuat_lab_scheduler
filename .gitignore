@@ -1,0 +1,7 @@
+.vscode
+.env.server
+.env.pg
+Makefile
+dev.yml
+staging.yml
+docker-compose.yml
