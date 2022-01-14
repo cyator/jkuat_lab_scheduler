@@ -4,9 +4,7 @@
 	"private": true,
 	"scripts": {
 		"start": "node ./bin/www",
-		"server": "nodemon ./bin/www",
-		"client": "cd .. && cd client && yarn start",
-		"dev": "concurrently \"yarn run client\" \"yarn run server\""
+		"server": "nodemon ./bin/www"
 	},
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
@@ -24,7 +22,6 @@
 		"uuid": "^8.3.2"
 	},
 	"devDependencies": {
-		"concurrently": "^6.2.0",
 		"nodemon": "^2.0.12"
 	}
 }
