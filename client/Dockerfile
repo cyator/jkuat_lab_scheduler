@@ -5,13 +5,13 @@ FROM node:14-alpine3.12 as builder
 WORKDIR /usr/src/client
 
 COPY ./package.json ./
-COPY ./yarn.lock ./
+COPY ./package-lock.json ./
 
-RUN yarn install --production
+RUN npm install --production
 
 COPY . ./
 
-RUN yarn build
+RUN npm build
 
 # ====== RUN =========
 

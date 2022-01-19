@@ -7,3 +7,5 @@ node_modules
 Dockerfile
 Dockerfile.dev
 Makefile
+Caddyfile
+Caddyfile.staging
